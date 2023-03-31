@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>자기소개페이지</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      center {
+        font-size: 90px;
+        color: #802727;
+        font-family: "Gaegu", cursive;
+      }
+      span {
+        background: #f9f7f6;
+        border-left: 0.5em solid #570328;
+        padding: 0.5em;
+      }
+      section > div {
+        margin: auto;
+        width: 75%;
+        text-align: center;
+        font-family: "Gamja Flower", cursive;
+        padding: 2em 2em;
+        background: white;
+        box-shadow: 0px 0px 0px 10px white;
+        border: solid 2px rgb(240, 218, 154);
+        border-radius: 8px;
+      }
+      div > p {
+        font-size: 30px;
+      }
+      div > h1 {
+        font-size: 50px;
+      }
+      mark {
+        font-family: "Gaegu", cursive;
+        background-color: #ffd5e7;
+        color: black;
+        font-size: 30px;
+      }
+
+      #clock {
+        background-color: orange;
+        width: 50%;
+      }
+      #list {
+        margin: auto;
+        width: 40%;
+        color: rgb(61, 38, 38);
+        border: dashed 5px #570328;
+        border-radius: 25px 50px 25px 50px;
+        font-family: "Gaegu", cursive;
+        text-align: left;
+        background: lightyellow;
+      }
+
+      a:link {
+        color: black;
+        text-decoration: none;
+      } /*아직 방문한 적 없는 글자색*/
+      a:visited {
+        color: black;
+        text-decoration: none;
+      } /*방문한 적이 있는 링크색*/
+      a:hover {
+        color: red;
+        text-decoration: none;
+      } /*마우스 링크에 올려두었을 때*/
+      a:active {
+        color: green;
+        text-decoration: none;
+      } /*마우스로 링크를 클릭하고 뗄 때까지*/
+    </style>
+  </head>
+
+  <body bgcolor="lightyellow">
+    <header>
+      <h4 style="font-family: 'Gamja Flower', cursive">자기 소개 페이지</h4>
+      <br />
+      <br />
+      <center
+        style="
+          text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+        "
+      >
+        <span><b>박소정을 소개합니다</b></span>
+      </center>
+
+      <br /><br /><br />
+      <br /><br /><br />
+
+      <div id="list">
+        <h1><em> &nbsp <목차></em></h1>
+        <ul>
+          <li>
+            <a href="#me"><h2>저는...</h2></a>
+          </li>
+          <li>
+            <a href="#hobby"><h2>취미</h2></a>
+          </li>
+          <li>
+            <a href="#like"><h2>좋아하는 것</h2></a>
+          </li>
+        </ul>
+        <br />
+      </div>
+    </header>
+    <br /><br /><br />
+    <br /><br />
+
+    <section>
+      <div id="me">
+        <br />
+        <h1>"저는... "</h1>
+        <p>
+          이름: <mark>박소정</mark>
+          <br />
+          생년월일: 2002.09.23 / 22살
+          <br />
+          컴퓨터학과 21학번 / 3학년
+          <br />
+          사는 곳: 서울시 서대문구 북아현동
+          <br />
+          형제관계: 언니가 있음..
+          <br />
+          istp
+        </p>
+        <p>
+          <img src="image/me.jpg" width="300" border="1" />
+        </p>
+      </div>
+
+      <br /><br />
+      <div id="hobby">
+        <br />
+        <h1>"취미"</h1>
+        <p>
+          - 산책하기 (<mark>노래</mark> 들으면서!!!)
+          <br />
+          <img src="image/hanriver.jpg" width="350" border="1" />
+          <img src="image/flower.jpg" width="350" border="1" />
+          <br />
+          <br />
+          - 누워있기
+          <br />
+          <br />
+          - 여행~ (아무데나)
+          <br />
+          <br />
+          - 영화 감상, 콘서트 가기, ott 보기 등등 ...
+          <br />
+          <img src="image/concert.jpg" width="350" border="1" />
+        </p>
+      </div>
+
+      <br /><br />
+      <div id="like">
+        <br />
+        <h1>"좋아하는 것"</h1>
+        <p>
+          <img src="image/ha.jpg" width="270" border="1" />
+          <img src="image/1975.jpg" width="270" border="1" />
+          <br />
+          <br />
+          <img src="image/sthings.jpg" width="430" border="1" />
+          <br />
+          <br />
+          <img src="image/food.jpg" width="400" border="1" />
+          <br />
+          <br />
+          <img src="image/wusagi.jpg" width="430" border="1" />
+        </p>
+      </div>
+
+      <br /><br />
+    </section>
+
+    <footer>
+      <br />
+      <h3
+        style="
+          text-align: center;
+          font-size: 60px;
+          color: #802727;
+          font-family: 'Gaegu', cursive;
+        "
+      >
+        !!앞으로 잘 부탁드립니다!!
+      </h3>
+      <br />
+      <br />
+    </footer>
+  </body>
+</html>
